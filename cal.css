@@ -1,0 +1,75 @@
+body
+{
+    margin:0px;
+    padding: 0px;
+    background-color:#292F33;
+    background-attachment: fixed;
+}
+.border
+{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background-color:rgba(255, 255, 255, 0.8);
+width:500px;
+height:300px;
+border-radius:10px;
+}
+.maths
+{
+    margin-left:160px;
+}
+.science
+{
+    margin-left:160px;
+}
+.maths,.science
+{
+    margin-top:35px;
+}
+.button input
+{
+    margin-left:200px;
+    margin-top:10px;
+    border-radius:10px;
+    background-color:gold;
+}
+input{
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+      }
+h1{
+    width:400px;
+    height:50px;
+    background-color:greenyellow;
+    margin-top:100px;
+}
+*
+{
+    margin-top:10px;
+}
+.hi
+{
+    background-image:url("rakesh1.png");
+    background-size: cover;
+}
+::placeholder
+{
+    color:black;
+    opacity:1px;
+}
+audio{
+      margin-top:29%;
+      margin-left:2%;
+      width:15%;
+}
+.hi h2{
+    color:black;
+    margin-left:2%;
+    margin-top:1%;
+    stroke-opacity:2px;
+
+}
